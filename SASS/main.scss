@@ -1,0 +1,18 @@
+@mixin header {
+    font-size: 2.5em;
+    color: red;
+    text-decoration: underline;
+}
+
+.display-4{
+    @include header;
+}
+
+@mixin text-style-1 {
+    font-size: 16px;
+    color: red;
+}
+
+.lead{
+    @include text-style-1;
+}
